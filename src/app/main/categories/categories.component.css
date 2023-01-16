@@ -1,0 +1,24 @@
+.categories {
+    display: flex;
+    justify-content: center;
+}
+
+.productCategories {
+    display: grid;
+    grid-template: 1fr/repeat(5, 1fr);
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product {
+    height: 30px;
+    margin-left: 30px;
+}
+
+.product a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Archivo:wght@100;400&family=Bebas+Neue&family=Fira+Code:wght@300&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+.squareImg {
+    width: 700px;
+    height: 500px;
+}
+
+.edition {
+    display: flex;
+    letter-spacing: 0.1rem;
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+}
+
+.description {
+    margin: auto;
+    margin-left: 50px;
+}
+
+.DeskText h1 {
+    margin: 0;
+}
+
+.BuyButton {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-flex;
+    height: 2.8rem;
+    width: 120px;
+    background-color: rgb(21, 21, 21);
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+    fill: white;
+    margin-top: 15px;
+    font-size: 15px;
+}

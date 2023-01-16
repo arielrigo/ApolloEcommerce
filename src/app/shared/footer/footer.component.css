@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Archivo:wght@100;400&family=Bebas+Neue&family=Fira+Code:wght@300&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+
+.footer {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    position: static;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: column;
+    border-top: 1px solid rgb(222, 221, 221);
+}
+
+.footerHold {
+    padding-top: 100px;
+    display: grid;
+    grid-template: 1fr/repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+    width: 90%;
+}
+
+
+h1 {
+    
+    font-size: 14px;
+}
+
+ul {
+   margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+   
+}
+
+.footerInfo {
+   
+    display: grid;
+    grid-template: 1fr/repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+    width: 600px;
+}
+
+.imgInfo {
+    width: 150px;
+    height: 100px;
+}
+
+.infoLogo {
+    width: 209px;
+    height: 60px;
+    color: rgb(161, 161, 161);
+}
+
+.logoText {
+    line-height: 1.43;
+}
+
+.inline  {
+    display: flex;
+    justify-content: center;
+}
+
+.inline ul li  {
+    margin: 5px;
+}
+
+.payments {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.finishContent {
+    content: '';
+    background-color: rgb(228, 228, 228);
+    width: 80%;
+    height: 1px;
+
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Fira+Code:wght@300&family=Montserrat:wght@100&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Fira+Code:wght@300&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+.banner {
+    width: 100vw;
+    height: 80vh;
+}
+
+.bannerImg {
+    object-fit: cover;
+    width: 100%;
+    height: 110%;
+}
+
+.bannerText {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+    margin-left: 50px;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bannerBuy {
+    width: 110px;
+    height: 40px;
+    border-radius: 27px;
+    cursor: pointer;
+}

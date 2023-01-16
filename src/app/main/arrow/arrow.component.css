@@ -1,0 +1,26 @@
+.bi-arrow-down {
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    animation: arrow 1500ms infinite, transparency 1500ms infinite;
+    cursor: pointer;
+}
+
+@keyframes arrow {
+    from {
+        bottom: 70px;
+    }
+    to {
+        bottom: 40px;
+    }
+}
+
+@keyframes transparency {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 0.2;
+    }
+}

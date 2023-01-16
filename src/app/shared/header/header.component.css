@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Fira+Code:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Fira+Code:wght@300&family=Montserrat:wght@100&family=Roboto&display=swap');
+.UpHeaderMessage {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+}
+
+.header {
+    display: grid;
+    grid-template: 2fr/repeat(3, 1fr);
+}
+
+.logo {
+    display: flex;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 14px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 25px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navBar {
+    display: flex;
+    margin: auto;
+    width: 60vw;
+    /* é sóp diminuir a width pra ajeitar a responsividade */
+}
+
+.navFind {
+    width: 60vw;
+    min-height: 39px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(245, 245, 245);
+    color: gray;
+    padding: 0 25px 0 45px;
+    margin-right: 10px;
+}
+
+.bi-search {
+    position: relative;
+    left: 30px;
+    bottom: -11px;
+}
+
+.favorites {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.hamburguer span {
+    display: block;
+    background-color: black;
+    width: 25px;
+    height: 1px;
+    margin: 5px auto;
+}
+
+.hamburguer {
+    cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 25px;
+    height: 25px;
+}
